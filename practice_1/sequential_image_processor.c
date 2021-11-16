@@ -45,10 +45,10 @@ int main(int argc, char const *argv[]) {
 }
 
 void apply_filter(unsigned char *image, int width, int height, int channels, int kernel_size) {
-    // this filter just swaps the image channels around
-    // for images with more than one channel (G, A), (R, G, B) or (R, G, B, A)
-    // for single gray channel images, it swaps each pixel with
-    // the next one, don't know what that results in yet
+    // color inversion filter
+    // for b&w, it inverts luminosity
+    // for b&w with alpha, transparency areas are inverted as well
+
     int image_size = width * height * channels;
 
     for (unsigned char *i = image; i < image + image_size; i += channels) {
