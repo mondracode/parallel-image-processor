@@ -4,11 +4,12 @@
 #include "lib/stb_image_write.h"
 
 // function prototypes
-void apply_filter(unsigned char *image, int image_size, int channels);
+void apply_filter(unsigned char *image, int width, int height, int channels, int kernel_size);
 
 int main(int argc, char const *argv[]) {
     const char *input_filename = argv[1];
     const char *output_filename = argv[2];
+    const char *kernel_size = argv[3];
     // more args will be added later
 
     int width, height;
@@ -26,7 +27,7 @@ int main(int argc, char const *argv[]) {
     printf("width is %d and height is %d at %d channels per pixel\n", width, height, channels);
 
     //do stuff
-    apply_filter(image, image_size, channels);
+    apply_filter(image, width, height, channels, 10);
 
     //"stride_in_bytes" is the distance in bytes
     //from the first byte of a row of pixels
@@ -42,34 +43,37 @@ int main(int argc, char const *argv[]) {
     return 0;
 }
 
-void apply_filter(unsigned char *image, int image_size, int channels) {
+void apply_filter(unsigned char *image, int width, int height, int channels, int kernel_size) {
     // this filter just swaps the image channels around
     // for images with more than one channel (G, A), (R, G, B) or (R, G, B, A)
     // for single gray channel images, it swaps each pixel with
     // the next one, don't know what that results in yet
+    int image_size = width * height * channels;
 
     for (unsigned char *i = image; i < image + image_size; i += channels) {
-        if (channels == 1) {
-            channels = 2;
+        if (channels <= 2) {
+            // B&W/G images
+            unsigned char *gray = i;
+
+            *gray = 255 - *gray;
         }
         if (channels == 2) {
-            unsigned char *gray = i;
+            // G, A images
             unsigned char *alpha = (i + 1);
-            unsigned char aux = *alpha;
 
-            //swap channels
-            *alpha = *gray;
-            *gray = aux;
-        } else {
+            //invert
+            *alpha = 255 - *alpha;
+        } else if (channels == 3) {
+            // R, G, B images
+
             unsigned char *red = i;
             unsigned char *green = (i + 1);
             unsigned char *blue = (i + 2);
-            unsigned char aux = *red;
 
             //swap colors around
-            *red = *green;
-            *green = *blue;
-            *blue = aux;
+            *red = 255 - *red;
+            *green = 255 - *green;
+            *blue = 255 - *blue;
         }
     }
 }
