@@ -24,6 +24,7 @@ int main(int argc, char const *argv[]) {
         return 1;
     }
 
+    printf("\nProcessing %s\n", input_filename);
     printf("width is %d and height is %d at %d channels per pixel\n", width, height, channels);
 
     //do stuff
