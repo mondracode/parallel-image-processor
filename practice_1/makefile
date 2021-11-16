@@ -8,14 +8,14 @@ CC=gcc
 
 1080p: sequential_image_processor.c
 	$(CC) sequential_image_processor.c -o sequential_image_processor
-	./sequential_image_processor img/1080p/1080p_bw_alpha_f1.png
-	./sequential_image_processor img/1080p/1080p_bw_f1.png
-	./sequential_image_processor img/1080p/1080p_color_f1.png
+	./sequential_image_processor img/1080p/1080p_bw_alpha_f1.png img/1080p/output_1080p_bw_alpha_f1.png
+	./sequential_image_processor img/1080p/1080p_bw_f1.png img/1080p/output_1080p_bw_f1.png
+	./sequential_image_processor img/1080p/1080p_color_f1.png img/1080p/output_1080p_color_f1.png
 
 720p: sequential_image_processor.c
 	$(CC) sequential_image_processor.c -o sequential_image_processor
-	./sequential_image_processor img/720p/720p_bw_alpha_santorini.png
-	./sequential_image_processor img/720p/720p_bw_santorini.png
-	./sequential_image_processor img/720p/720p_color_santorini.png
+	./sequential_image_processor img/720p/720p_bw_alpha_santorini.png img/720p/output_720p_bw_alpha_santorini.png
+	./sequential_image_processor img/720p/720p_bw_santorini.png img/720p/output_720p_bw_santorini.png
+	./sequential_image_processor img/720p/720p_color_santorini.png img/720p/output_720p_color_santorini.png
 
 all: 4k 1080p 720p
