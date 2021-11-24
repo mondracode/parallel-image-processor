@@ -1,75 +1,204 @@
 -------4K-------
-6
-1
+
 Processing img/4K/4k_bw_alpha_duck.png
 width is 3840 and height is 2160 at 2 channels per pixel
 
-real	0m3.018s
-user	0m4.330s
-sys	0m0.116s
-6
-1
+real	0m2.999s
+user	0m2.297s
+sys	0m0.030s
+
 Processing img/4K/4k_bw_duck.png
 width is 3840 and height is 2160 at 1 channels per pixel
 
-real	0m1.789s
-user	0m3.405s
-sys	0m0.233s
-6
-1
+real	0m1.737s
+user	0m1.699s
+sys	0m0.026s
+
 Processing img/4K/4k_color_duck.png
 width is 3840 and height is 2160 at 3 channels per pixel
 
-real	0m4.474s
-user	0m6.399s
-sys	0m0.144s
+real	0m4.360s
+user	0m4.286s
+sys	0m0.057s
 ------1080p-----
-6
-1
+
 Processing img/1080p/1080p_bw_alpha_f1.png
 width is 1920 and height is 1080 at 2 channels per pixel
 
-real	0m0.726s
-user	0m2.593s
-sys	0m0.088s
-6
-1
+real	0m0.685s
+user	0m0.567s
+sys	0m0.010s
+
 Processing img/1080p/1080p_bw_f1.png
 width is 1920 and height is 1080 at 1 channels per pixel
 
-real	0m0.462s
-user	0m2.289s
-sys	0m0.120s
-6
-1
+real	0m0.431s
+user	0m0.417s
+sys	0m0.008s
+
 Processing img/1080p/1080p_color_f1.png
 width is 1920 and height is 1080 at 3 channels per pixel
 
-real	0m1.168s
-user	0m2.837s
-sys	0m0.185s
+real	0m1.086s
+user	0m1.064s
+sys	0m0.014s
 ------720p------
-6
-1
+
 Processing img/720p/720p_bw_alpha_santorini.png
 width is 1280 and height is 720 at 2 channels per pixel
 
-real	0m0.363s
-user	0m2.201s
-sys	0m0.084s
-6
-1
+real	0m0.335s
+user	0m0.226s
+sys	0m0.004s
+
 Processing img/720p/720p_bw_santorini.png
 width is 1280 and height is 720 at 1 channels per pixel
 
-real	0m0.184s
-user	0m1.685s
-sys	0m0.074s
-6
-1
+real	0m0.158s
+user	0m0.150s
+sys	0m0.004s
+
 Processing img/720p/720p_color_santorini.png
 width is 1280 and height is 720 at 3 channels per pixel
 
-real	0m0.523s
-user	0m2.464s
-sys	0m0.078s
+real	0m0.471s
+user	0m0.457s
+sys	0m0.008s
+_________________________________________________________________________-
+-------4K-------
+
+Processing img/4K/4k_bw_alpha_duck.png
+width is 3840 and height is 2160 at 2 channels per pixel
+
+real	0m2.968s
+user	0m3.261s
+sys	0m0.040s
+
+Processing img/4K/4k_bw_duck.png
+width is 3840 and height is 2160 at 1 channels per pixel
+
+real	0m1.691s
+user	0m2.645s
+sys	0m0.035s
+
+Processing img/4K/4k_color_duck.png
+width is 3840 and height is 2160 at 3 channels per pixel
+
+real	0m4.417s
+user	0m5.333s
+sys	0m0.076s
+------1080p-----
+
+Processing img/1080p/1080p_bw_alpha_f1.png
+width is 1920 and height is 1080 at 2 channels per pixel
+
+real	0m0.702s
+user	0m1.578s
+sys	0m0.024s
+
+Processing img/1080p/1080p_bw_f1.png
+width is 1920 and height is 1080 at 1 channels per pixel
+
+real	0m0.421s
+user	0m1.377s
+sys	0m0.021s
+
+Processing img/1080p/1080p_color_f1.png
+width is 1920 and height is 1080 at 3 channels per pixel
+
+real	0m1.096s
+user	0m2.046s
+sys	0m0.027s
+------720p------
+
+Processing img/720p/720p_bw_alpha_santorini.png
+width is 1280 and height is 720 at 2 channels per pixel
+
+real	0m0.329s
+user	0m1.169s
+sys	0m0.018s
+
+Processing img/720p/720p_bw_santorini.png
+width is 1280 and height is 720 at 1 channels per pixel
+
+real	0m0.162s
+user	0m0.807s
+sys	0m0.015s
+
+Processing img/720p/720p_color_santorini.png
+width is 1280 and height is 720 at 3 channels per pixel
+
+real	0m0.473s
+user	0m1.431s
+sys	0m0.022s
+--------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+
+-------4K-------
+
+Processing img/4K/4k_bw_alpha_duck.png
+width is 3840 and height is 2160 at 2 channels per pixel
+
+real	0m2.709s
+user	0m2.578s
+sys	0m1.825s
+
+Processing img/4K/4k_bw_duck.png
+width is 3840 and height is 2160 at 1 channels per pixel
+
+real	0m1.751s
+user	0m1.929s
+sys	0m1.818s
+
+Processing img/4K/4k_color_duck.png
+width is 3840 and height is 2160 at 3 channels per pixel
+
+real	0m4.487s
+user	0m4.576s
+sys	0m1.269s
+------1080p-----
+
+Processing img/1080p/1080p_bw_alpha_f1.png
+width is 1920 and height is 1080 at 2 channels per pixel
+
+real	0m0.740s
+user	0m0.830s
+sys	0m1.900s
+
+Processing img/1080p/1080p_bw_f1.png
+width is 1920 and height is 1080 at 1 channels per pixel
+
+real	0m0.457s
+user	0m0.634s
+sys	0m1.784s
+
+Processing img/1080p/1080p_color_f1.png
+width is 1920 and height is 1080 at 3 channels per pixel
+
+real	0m1.149s
+user	0m1.333s
+sys	0m1.880s
+------720p------
+
+Processing img/720p/720p_bw_alpha_santorini.png
+width is 1280 and height is 720 at 2 channels per pixel
+
+real	0m0.370s
+user	0m0.458s
+sys	0m1.872s
+
+Processing img/720p/720p_bw_santorini.png
+width is 1280 and height is 720 at 1 channels per pixel
+
+real	0m0.183s
+user	0m0.326s
+sys	0m1.441s
+
+Processing img/720p/720p_color_santorini.png
+width is 1280 and height is 720 at 3 channels per pixel
+
+real	0m0.514s
+user	0m0.695s
+sys	0m1.828s
