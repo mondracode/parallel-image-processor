@@ -29,6 +29,7 @@ int main(int argc, char const *argv[]) {
 
     printf("\nProcessing %s\n", input_filename);
     printf("width is %d and height is %d at %d channels per pixel\n", width, height, channels);
+    printf("working with %d threads\n", omp_get_max_threads());
 
     //do stuff
     apply_filter(image, width, height, channels);
