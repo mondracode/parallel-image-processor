@@ -1,0 +1,72 @@
+-------4K-------
+image is null: No such file or directory
+
+real	0m1.923s
+user	0m0.001s
+sys	0m0.001s
+-------4K-------
+
+Processing img/4K/4k_bw_alpha_duck.png
+width is 3840 and height is 2160 at 2 channels per pixel
+
+real	0m2.582s
+user	0m2.408s
+sys	0m0.038s
+
+Processing img/4K/4k_bw_duck.png
+width is 3840 and height is 2160 at 1 channels per pixel
+
+real	0m1.770s
+user	0m1.733s
+sys	0m0.025s
+
+Processing img/4K/4k_color_duck.png
+width is 3840 and height is 2160 at 3 channels per pixel
+
+real	0m4.556s
+user	0m4.476s
+sys	0m0.061s
+------1080p-----
+
+Processing img/1080p/1080p_bw_alpha_f1.png
+width is 1920 and height is 1080 at 2 channels per pixel
+
+real	0m0.714s
+user	0m0.593s
+sys	0m0.009s
+
+Processing img/1080p/1080p_bw_f1.png
+width is 1920 and height is 1080 at 1 channels per pixel
+
+real	0m0.431s
+user	0m0.418s
+sys	0m0.007s
+
+Processing img/1080p/1080p_color_f1.png
+width is 1920 and height is 1080 at 3 channels per pixel
+
+real	0m1.136s
+user	0m1.113s
+sys	0m0.017s
+------720p------
+
+Processing img/720p/720p_bw_alpha_santorini.png
+width is 1280 and height is 720 at 2 channels per pixel
+
+real	0m0.346s
+user	0m0.229s
+sys	0m0.005s
+
+Processing img/720p/720p_bw_santorini.png
+width is 1280 and height is 720 at 1 channels per pixel
+
+real	0m0.163s
+user	0m0.155s
+sys	0m0.004s
+
+Processing img/720p/720p_color_santorini.png
+width is 1280 and height is 720 at 3 channels per pixel
+
+real	0m0.481s
+user	0m0.469s
+sys	0m0.008s
