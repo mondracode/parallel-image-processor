@@ -50,7 +50,7 @@ CC=clang
 
 720p: openmp_image_processor.c
 	$(CC) -Xpreprocessor -fopenmp openmp_image_processor.c -lomp
-	$ (echo "----------------------1080p------------------------") >> time_results.txt 2>&1
+	$ (echo "----------------------720p-------------------------") >> time_results.txt 2>&1
 	$ (echo "-----2 threads------") >> time_results.txt 2>&1
 	$ (time ./a.out img/720p/720p_bw_alpha_santorini.png img/720p/output_720p_bw_alpha_santorini.png 2) >> time_results.txt 2>&1
 	$ (time ./a.out img/720p/720p_bw_santorini.png img/720p/output_720p_bw_santorini.png 2) >> time_results.txt 2>&1

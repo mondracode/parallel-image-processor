@@ -1,72 +1,174 @@
--------4K-------
-image is null: No such file or directory
-
-real	0m1.923s
-user	0m0.001s
-sys	0m0.001s
--------4K-------
-
-Processing img/4K/4k_bw_alpha_duck.png
-width is 3840 and height is 2160 at 2 channels per pixel
-
-real	0m2.582s
-user	0m2.408s
-sys	0m0.038s
-
-Processing img/4K/4k_bw_duck.png
-width is 3840 and height is 2160 at 1 channels per pixel
-
-real	0m1.770s
-user	0m1.733s
-sys	0m0.025s
+----------------------4K------------------------
+-----host + 1 node------
 
 Processing img/4K/4k_color_duck.png
 width is 3840 and height is 2160 at 3 channels per pixel
+real 4.90
+user 5.07
+sys 0.29
 
-real	0m4.556s
-user	0m4.476s
-sys	0m0.061s
-------1080p-----
+Processing img/4K/4k_bw_alpha_duck.png
+width is 3840 and height is 2160 at 2 channels per pixel
+real 2.55
+user 2.79
+sys 0.18
 
-Processing img/1080p/1080p_bw_alpha_f1.png
-width is 1920 and height is 1080 at 2 channels per pixel
+Processing img/4K/4k_bw_duck.png
+width is 3840 and height is 2160 at 1 channels per pixel
+real 1.88
+user 2.05
+sys 0.15
+-----host + 2 nodes-----
 
-real	0m0.714s
-user	0m0.593s
-sys	0m0.009s
+Processing img/4K/4k_color_duck.png
+width is 3840 and height is 2160 at 3 channels per pixel
+real 4.53
+user 5.59
+sys 0.43
 
-Processing img/1080p/1080p_bw_f1.png
-width is 1920 and height is 1080 at 1 channels per pixel
+Processing img/4K/4k_bw_alpha_duck.png
+width is 3840 and height is 2160 at 2 channels per pixel
+real 2.56
+user 3.15
+sys 0.29
 
-real	0m0.431s
-user	0m0.418s
-sys	0m0.007s
+Processing img/4K/4k_bw_duck.png
+width is 3840 and height is 2160 at 1 channels per pixel
+real 1.87
+user 2.30
+sys 0.22
+-----host + 3 nodes-----
+
+Processing img/4K/4k_color_duck.png
+width is 3840 and height is 2160 at 3 channels per pixel
+real 4.69
+user 6.19
+sys 0.60
+
+Processing img/4K/4k_bw_alpha_duck.png
+width is 3840 and height is 2160 at 2 channels per pixel
+real 2.57
+user 3.50
+sys 0.40
+
+Processing img/4K/4k_bw_duck.png
+width is 3840 and height is 2160 at 1 channels per pixel
+real 1.88
+user 2.58
+sys 0.30
+----------------------1080p---------------------
+-----host + 1 node------
 
 Processing img/1080p/1080p_color_f1.png
 width is 1920 and height is 1080 at 3 channels per pixel
+real 1.43
+user 1.42
+sys 0.14
 
-real	0m1.136s
-user	0m1.113s
-sys	0m0.017s
-------720p------
+Processing img/1080p/1080p_bw_alpha_f1.png
+width is 1920 and height is 1080 at 2 channels per pixel
+real 0.79
+user 0.83
+sys 0.11
 
-Processing img/720p/720p_bw_alpha_santorini.png
-width is 1280 and height is 720 at 2 channels per pixel
+Processing img/1080p/1080p_bw_f1.png
+width is 1920 and height is 1080 at 1 channels per pixel
+real 0.63
+user 0.65
+sys 0.10
+-----host + 2 nodes-----
 
-real	0m0.346s
-user	0m0.229s
-sys	0m0.005s
+Processing img/1080p/1080p_color_f1.png
+width is 1920 and height is 1080 at 3 channels per pixel
+real 1.30
+user 1.60
+sys 0.19
 
-Processing img/720p/720p_bw_santorini.png
-width is 1280 and height is 720 at 1 channels per pixel
+Processing img/1080p/1080p_bw_alpha_f1.png
+width is 1920 and height is 1080 at 2 channels per pixel
+real 0.79
+user 0.98
+sys 0.15
 
-real	0m0.163s
-user	0m0.155s
-sys	0m0.004s
+Processing img/1080p/1080p_bw_f1.png
+width is 1920 and height is 1080 at 1 channels per pixel
+real 0.63
+user 0.77
+sys 0.14
+-----host + 1 nodes-----
+
+Processing img/1080p/1080p_color_f1.png
+width is 1920 and height is 1080 at 3 channels per pixel
+real 1.30
+user 1.80
+sys 0.24
+
+Processing img/1080p/1080p_bw_alpha_f1.png
+width is 1920 and height is 1080 at 2 channels per pixel
+real 0.79
+user 1.12
+sys 0.19
+
+Processing img/1080p/1080p_bw_f1.png
+width is 1920 and height is 1080 at 1 channels per pixel
+real 0.63
+user 0.89
+sys 0.17
+----------------------720p-------------------------
+-----host + 1 node------
 
 Processing img/720p/720p_color_santorini.png
 width is 1280 and height is 720 at 3 channels per pixel
+real 0.80
+user 0.74
+sys 0.11
 
-real	0m0.481s
-user	0m0.469s
-sys	0m0.008s
+Processing img/720p/720p_bw_alpha_santorini.png
+width is 1280 and height is 720 at 2 channels per pixel
+real 0.44
+user 0.45
+sys 0.09
+
+Processing img/720p/720p_bw_santorini.png
+width is 1280 and height is 720 at 1 channels per pixel
+real 0.37
+user 0.38
+sys 0.09
+-----host + 2 nodes-----
+
+Processing img/720p/720p_color_santorini.png
+width is 1280 and height is 720 at 3 channels per pixel
+real 0.69
+user 0.85
+sys 0.14
+
+Processing img/720p/720p_bw_alpha_santorini.png
+width is 1280 and height is 720 at 2 channels per pixel
+real 0.45
+user 0.55
+sys 0.12
+
+Processing img/720p/720p_bw_santorini.png
+width is 1280 and height is 720 at 1 channels per pixel
+real 0.37
+user 0.47
+sys 0.11
+-----host + 3 nodes-----
+
+Processing img/720p/720p_color_santorini.png
+width is 1280 and height is 720 at 3 channels per pixel
+real 0.69
+user 0.99
+sys 0.18
+
+Processing img/720p/720p_bw_alpha_santorini.png
+width is 1280 and height is 720 at 2 channels per pixel
+real 0.45
+user 0.66
+sys 0.16
+
+Processing img/720p/720p_bw_santorini.png
+width is 1280 and height is 720 at 1 channels per pixel
+real 0.39
+user 0.57
+sys 0.15
