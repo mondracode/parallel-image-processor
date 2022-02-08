@@ -44,18 +44,18 @@ CC=mpicc
 	$ (echo "----------------------720p-------------------------") >> time_results.txt 2>&1
 
 	$ (echo "-----host + 1 node------") >> time_results.txt 2>&1
-	$ (time -p mpirun -np 2 mpi_image_processor img/720p/720p_color_santorini.png img/720p/output_720p_color_santorini.png) >> time_results.txt 2>&1
-	$ (time -p mpirun -np 2 mpi_image_processor img/720p/720p_bw_alpha_santorini.png img/720p/output_720p_bw_alpha_santorini.png) >> time_results.txt 2>&1
-	$ (time -p mpirun -np 2 mpi_image_processor img/720p/720p_bw_santorini.png img/720p/output_720p_bw_santorini.png) >> time_results.txt 2>&1
+	$ (time -p mpirun -np 2 --hostfile mpi-hosts ./mpi_image_processor img/720p/720p_color_santorini.png img/720p/output_720p_color_santorini.png) >> time_results.txt 2>&1
+	$ (time -p mpirun -np 2 --hostfile mpi-hosts ./mpi_image_processor img/720p/720p_bw_alpha_santorini.png img/720p/output_720p_bw_alpha_santorini.png) >> time_results.txt 2>&1
+	$ (time -p mpirun -np 2 --hostfile mpi-hosts ./mpi_image_processor img/720p/720p_bw_santorini.png img/720p/output_720p_bw_santorini.png) >> time_results.txt 2>&1
 
 	$ (echo "-----host + 2 nodes-----") >> time_results.txt 2>&1
-	$ (time -p mpirun -np 3 mpi_image_processor img/720p/720p_color_santorini.png img/720p/output_720p_color_santorini.png) >> time_results.txt 2>&1
-	$ (time -p mpirun -np 3 mpi_image_processor img/720p/720p_bw_alpha_santorini.png img/720p/output_720p_bw_alpha_santorini.png) >> time_results.txt 2>&1
-	$ (time -p mpirun -np 3 mpi_image_processor img/720p/720p_bw_santorini.png img/720p/output_720p_bw_santorini.png) >> time_results.txt 2>&1
+	$ (time -p mpirun -np 3 --hostfile mpi-hosts ./mpi_image_processor img/720p/720p_color_santorini.png img/720p/output_720p_color_santorini.png) >> time_results.txt 2>&1
+	$ (time -p mpirun -np 3 --hostfile mpi-hosts ./mpi_image_processor img/720p/720p_bw_alpha_santorini.png img/720p/output_720p_bw_alpha_santorini.png) >> time_results.txt 2>&1
+	$ (time -p mpirun -np 3 --hostfile mpi-hosts ./mpi_image_processor img/720p/720p_bw_santorini.png img/720p/output_720p_bw_santorini.png) >> time_results.txt 2>&1
 
 	$ (echo "-----host + 3 nodes-----") >> time_results.txt 2>&1
-	$ (time -p mpirun -np 4 mpi_image_processor img/720p/720p_color_santorini.png img/720p/output_720p_color_santorini.png) >> time_results.txt 2>&1
-	$ (time -p mpirun -np 4 mpi_image_processor img/720p/720p_bw_alpha_santorini.png img/720p/output_720p_bw_alpha_santorini.png) >> time_results.txt 2>&1
-	$ (time -p mpirun -np 4 mpi_image_processor img/720p/720p_bw_santorini.png img/720p/output_720p_bw_santorini.png) >> time_results.txt 2>&1
+	$ (time -p mpirun -np 4 --hostfile mpi-hosts ./mpi_image_processor img/720p/720p_color_santorini.png img/720p/output_720p_color_santorini.png) >> time_results.txt 2>&1
+	$ (time -p mpirun -np 4 --hostfile mpi-hosts ./mpi_image_processor img/720p/720p_bw_alpha_santorini.png img/720p/output_720p_bw_alpha_santorini.png) >> time_results.txt 2>&1
+	$ (time -p mpirun -np 4 --hostfile mpi-hosts ./mpi_image_processor img/720p/720p_bw_santorini.png img/720p/output_720p_bw_santorini.png) >> time_results.txt 2>&1
 
 all: 4k 1080p 720p
